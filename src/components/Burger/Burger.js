@@ -17,8 +17,6 @@ const burger = props => {
       return arr.concat(el);
     });
 
-  console.log(transformIngredient);
-
   // делаем проверку на количество елементов в массиве, если ноль то выводим p
   if (transformIngredient.length === 0) {
     transformIngredient = <p>Please start adding ingredients!</p>;
