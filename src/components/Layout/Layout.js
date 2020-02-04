@@ -2,7 +2,7 @@ import React from "react";
 
 import Aux from "../../hoc/Aux";
 
-import styles from "./Layout.css";
+import styles from "./Layout.module.css";
 
 const layout = props => (
   <Aux>
