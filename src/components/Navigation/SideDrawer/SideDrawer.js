@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./SideDrawer.module.css";
 
-import Aux from "../../../hoc/Aux";
+import Aux from "../../../hoc/Aux/Aux";
 
 import Backdrop from "../../UI/Backdrop/Backdrop";
 import Logo from "../../Logo/Logo";
@@ -14,6 +14,7 @@ const sideDrawer = props => {
   if (props.open) {
     attachedClasses = [styles.SideDrawer, styles.Open];
   }
+  
   return (
     <Aux>
       <Backdrop show={props.open} clicked={props.closed} />
